@@ -23,7 +23,8 @@ Given(/^I am on dropdown page$/, async function() {
 Then(/^I should see all operators in dropdown$/, async function() {
     const excelCon: ExcelCon = new ExcelCon("Column 3");
 
-    await browser.sleep(5000);
+    await browser.sleep(6000);
+ await browser.sleep(8000);
 
     for (let i = 0; i < (await excelCon.sDataArray).length; i++) {
       await expect(homePage.dropdown.get(i).getText()).to.eventually.equal(excelCon.sDataArray[i]);
