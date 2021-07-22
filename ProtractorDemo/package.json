@@ -35,6 +35,6 @@
     "dependencies": {
         "@types/jest": "^26.0.0",
         "exceljs": "^4.0.1",
-        "xlsx": "^0.16.2"
+        "xlsx": "^0.17.0"
     }
 }
